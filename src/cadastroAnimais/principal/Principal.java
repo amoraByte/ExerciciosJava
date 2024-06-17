@@ -52,7 +52,7 @@ public class Principal {
 
         }while(opcao.equalsIgnoreCase("s"));
 
-        System.out.println("Animais cadastrados: "); //problema na lsitagem de animais cadastrados
+        System.out.println("Animais cadastrados: "); //problema na listagem de animais cadastrados
         for(Animal animal: animais){
             System.out.println(animal);
         }
