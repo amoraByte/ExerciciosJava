@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        List<Animal> animais = new ArrayList<>();
+        List<Animal> animais = new ArrayList<>(); //nao funcional
         Scanner leitura  = new Scanner(System.in);
         String opcao;
 
@@ -16,7 +16,7 @@ public class Principal {
             System.out.println("Digite a idade do animal: ");
             int idade = leitura.nextInt();
 
-            System.out.println("Digite a sexo do animal: ");
+            System.out.println("Digite a sexo do animal: "); //input nao funciona
             String sexo = leitura.nextLine();
 
             System.out.println("O animal é vacinado? (se for vacinado digite sim, se não for vacinado deixe vazio)");
